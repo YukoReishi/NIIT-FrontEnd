@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/* Form */
+.FormSection{
+    position: absolute;
+    height: 85%;
+    width: 100%;
+    background-color: silver;
+}
+
+.FormSection .s2{
+    float: right;
+    height: 80%;
+    width: 60%;
+    padding-top: 10%;
+}
+
+form{
+    border: 2px solid black;
+    padding-right: 0%;
+}
+
+input[type=text] {
+    width: 30%;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    display: block;
+    /* position: fixed; */
+}
+
+input[type=password] {
+    width: 30%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    display: block;
+    /* position: fixed; */
+}
+
+input[type=submit] {
+    width: 10%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;  
+}
+
+/* Footer */
+.FooterSection{
+    background-color: gray;
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    bottom: 0px;
+    padding-top: 2%; 
+    padding-bottom: 4%;
+}
+
+.FooterSection .footerLogo{
+    float: left;
+    width: 25%;
+    padding-left: 15px;
+}
+
+.FooterSection .contactUs{
+    float: left;
+    width: 32%;
+    padding-left: 15%;
+}
+
+.FooterSection .icons{
+    float: left;  
+    padding-top: 10px;
+}
+
+.FooterSection .icons a{
+    padding-right: 10px;
+}
